@@ -1,0 +1,155 @@
+body{  
+    font-family: Calibri, Helvetica, sans-serif;  
+    background-color: rgb(252, 252, 252);  
+  }  
+  .container {  
+      padding: 50px;  
+    background-color: rgba(211, 211, 211, 0.651);  
+  }  
+  .container1 {  
+    padding: 50px;  
+  background-color: rgba(255, 255, 255, 0.651);  
+}  
+    
+  input[type=text], input[type=number], textarea {  
+    width: 100%;  
+    padding: 15px;  
+    margin: 5px 0 22px 0;  
+    display: inline-block;  
+    border: none;  
+    background: #f1f1f1; 
+    border-radius: 25px; 
+  }  
+  input[type=text]:focus, input[type=password]:focus {  
+    background-color: rgb(122, 250, 62);  
+    outline: none;  
+  }  
+   div {  
+              padding: 10px 0;  
+           }  
+  hr {  
+    border: 1px solid #f1f1f1;  
+    margin-bottom: 25px;  
+  }  
+  .registerbtn {  
+    background-color: #4CAF50;  
+    color: white;  
+    padding: 16px 20px;  
+    margin: 8px 0;  
+    border: none;  
+    cursor: pointer;  
+    width: 100%;  
+    opacity: 0.9;  
+  }  
+  .registerbtn:hover {  
+    opacity: 1;  
+  }
+  .button {
+    border-radius: 25px; 
+    background-color: #00ffff;  /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #000000;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .update
+  {
+      display: block;
+      width: 70px;
+      height: 15px;
+      background: #85e7ff;
+      padding: 10px;
+      text-align: center;
+      border-radius: 5px;
+      color: white;
+      font-weight: bold;
+      line-height: 15px;
+  }
+  .delete
+  {
+      display: block;
+      width: 70px;
+      height: 15px;
+      background: #fc0d0d;
+      padding: 10px;
+      text-align: center;
+      border-radius: 5px;
+      color: white;
+      font-weight: bold;
+      line-height: 15px;
+  }
+  .insert
+  {
+      color: rgb(255, 0, 0);
+      font-weight: bold;
+      
+  }
+  .blue
+  {
+    color:rgb(0, 0, 201);
+    font-weight:bold;
+  }
+  .student
+  {
+    color:rgb(3, 3, 158);
+    font: weight 20px;;
+  }
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .right {
+    right: 0;
+    background-color: rgb(255, 255, 255);
+  }
+  table, td, th
+   {
+    border: 3px solid rgb(0, 0, 0);
+    text-align: center;
+    
+  }
+  
+  table
+   {
+    border-collapse: collapse;
+    width: 100%;
+    
+    
+  }
+  
+  td 
+  {
+    height: 50px;
+    vertical-align: bottom;
+  }
+
+  
+ 
